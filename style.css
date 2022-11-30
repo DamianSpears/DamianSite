@@ -1,14 +1,13 @@
-
 /* Header */
 .header {
-    background-color: black;
+    background-color: #1f2937;
     font-size: 24px;
-    font-family: serif;
-    color: white;
+    font-family: sans-serif;
+    color: #F9FAF8;
     display: flex;
     height: 100px;
     justify-content: space-between;
-    padding-left: 50px;
+    padding: 0px 100px;
 }
 
 ul {
@@ -16,10 +15,64 @@ ul {
     gap: 20px;
     align-items: center;
     list-style-type: none;
-    padding: 10px;
+    font-size: 18px;
 }
 
 img {
     margin: -20px;
     margin-bottom: -40px;
 }
+
+.top-links {
+    margin: 0;
+}
+
+/* Hero */
+
+.Hero {
+    background-color: #1ea58a;
+    display: flex;
+    color: #F9FAF8;
+    padding: 50px 100px;
+    height: 200px;
+}
+
+.Website {
+    font-size: 48px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-family: sans-serif;
+}
+
+.Placeholder {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+}
+
+.column {
+    flex: 1;
+    flex-wrap: wrap;
+    position: relative;
+    padding-right: 50px;
+}
+
+button {
+    background-color: #1f2937;
+    border-radius: 10%;
+    color: white;
+    border: none;
+    font-family: sans-serif;
+    padding: 5px 15px;
+    margin-top: 5px;
+    position: absolute;
+    bottom: 0;
+}
+
